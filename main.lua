@@ -57,7 +57,7 @@ function exf.draw()
 	lightWorld:draw(function()
     love.graphics.setBackgroundColor(0, 0, 0)
 
-    love.graphics.setColor(48, 156, 225)
+    love.graphics.setColor(0, 0, 0)
     love.graphics.rectangle("fill", 0, 0, love.graphics.getWidth(), love.graphics.getHeight())
 
     love.graphics.setColor(255, 255, 255, 191)
